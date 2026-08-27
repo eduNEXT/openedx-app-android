@@ -1,4 +1,4 @@
-API_HOST_URL: 'http://localhost:8000'
+API_HOST_URL: 'http://your_ip:8000/'
 APPLICATION_ID: 'org.openedx.app'
 ENVIRONMENT_DISPLAY_NAME: 'Localhost'
 URI_SCHEME: ''
@@ -71,8 +71,8 @@ EXPERIMENTAL_FEATURES:
     ENABLED: false
 
 #Platform names
-PLATFORM_NAME: "OpenEdX"
-PLATFORM_FULL_NAME: "OpenEdX"
+PLATFORM_NAME: "My OpenEdX"
+PLATFORM_FULL_NAME: "My OpenEdX"
 #App sourceSets dir
 THEME_DIRECTORY: "openedx"
 #tokenType enum accepts JWT and BEARER only
