@@ -1,0 +1,101 @@
+{
+  "format": "v1",
+  "generated_at": "2026-08-27T18:03:28Z",
+  "provider": {
+    "name": "Test Edunext",
+    "tagline": "Five campuses, one app",
+    "logo": "https://www.edunext.co/wp-content/uploads/2025/01/logo-edunext-12-1.png"
+  },
+  "include": [
+    {
+      "id": "1",
+      "name": "Ulmo Demo",
+      "description": "Ulmo Demo Campus",
+      "url": "https://demo.ulmo.releases.edunext.link",
+      "logo": "https://providers.openedx-lms.stepanok.com/uploads/ce925a059d1d46d08c6cde64b2cecef7.png",
+      "accent_color": "#2196f3",
+      "feature_flags": {
+        "pre_login_discovery": true,
+        "unknown_units_mode": "block",
+        "offline_downloads": true,
+        "smart_push_automation": false
+      },
+      "theme": {
+        "accent_color_dark": "#5d97c6",
+        "login_background": null
+      },
+      "ui_components": {
+        "course_unit_progress_enabled": true,
+        "course_dropdown_navigation_enabled": true,
+        "pre_login_experience_enabled": true
+      },
+      "dashboard": {
+        "type": "gallery"
+      },
+      "api": {
+        "feedback_email": "support@example.com",
+        "oauth_client_id": "yEuuu5AkMoL1ijZyoKuiUkFgUHFZ9OtIsrsz41kR"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Takoradi",
+      "description": "Takoradi Technical",
+      "url": "https://takoradi.edunext.cloud",
+      "logo": "https://providers.openedx-lms.stepanok.com/uploads/44dca275cade4fd595fe3498db8ebd3d.png",
+      "accent_color": "#007BFF",
+      "feature_flags": {
+        "pre_login_discovery": true,
+        "unknown_units_mode": "block",
+        "offline_downloads": true,
+        "smart_push_automation": false
+      },
+      "theme": {
+        "accent_color_dark": "#5188c2",
+        "login_background": "https://providers.openedx-lms.stepanok.com/uploads/8b708aef9a2a4f808f51ca54d3431c2f.png"
+      },
+      "ui_components": {
+        "course_unit_progress_enabled": true,
+        "course_dropdown_navigation_enabled": true,
+        "pre_login_experience_enabled": true
+      },
+      "dashboard": {
+        "type": "list"
+      },
+      "api": {
+        "feedback_email": "support@example.com",
+        "oauth_client_id": "ZoVMqJgxl4xhgZV4xi0a0m1hV8ywIhJFA2Qavlyo"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Verawood",
+      "description": "Verawood Vanilla",
+      "url": "https://verawood.releases.edunext.link",
+      "logo": "https://openedx-lms.stepanok.com/uploads/3279c0fadf0f4b459e5f7e9609e54fe2.png",
+      "accent_color": "#960bfe",
+      "feature_flags": {
+        "pre_login_discovery": true,
+        "unknown_units_mode": "webview",
+        "offline_downloads": true,
+        "smart_push_automation": false
+      },
+      "theme": {
+        "accent_color_dark": "#a56fcd",
+        "login_background": "https://openedx-lms.stepanok.com/uploads/93f646ea19f04169b92e11201ca54037.jpg"
+      },
+      "ui_components": {
+        "course_unit_progress_enabled": true,
+        "course_dropdown_navigation_enabled": true,
+        "pre_login_experience_enabled": true
+      },
+      "dashboard": {
+        "type": "gallery"
+      },
+      "api": {
+        "feedback_email": "support@example.com",
+        "oauth_client_id": "8d2f1e4b9c037a62d5e1f048b9a3c7d2"
+      }
+    }
+  ]
+}

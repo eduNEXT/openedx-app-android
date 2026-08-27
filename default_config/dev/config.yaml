@@ -107,6 +107,6 @@ UI_COMPONENTS:
 # either web addresses or names of files shipped with the app.
 # See Documentation/LMSDirectory.md for the format.
 LMS_DIRECTORY:
-  ENABLED: false
+  ENABLED: true
   DIRECTORY_URL: ""
-  DIRECTORY_FILE: ""
+  DIRECTORY_FILE: "lms_directory.json"
