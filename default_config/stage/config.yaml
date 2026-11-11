@@ -1,10 +1,10 @@
-API_HOST_URL: 'http://localhost:8000'
-APPLICATION_ID: 'org.openedx.app'
-ENVIRONMENT_DISPLAY_NAME: 'Localhost'
+API_HOST_URL: 'https://lms.ceibal.edunextstage.net'
+APPLICATION_ID: 'org.ceibal.app'
+ENVIRONMENT_DISPLAY_NAME: 'Ceibal Stage'
 URI_SCHEME: ''
 FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
 FAQ_URL: ''
-OAUTH_CLIENT_ID: 'OAUTH_CLIENT_ID'
+OAUTH_CLIENT_ID: 'M05jf79JINDfsAJBDibRlMsuKWpeMOJ6yyDXcRW0'
 
 # Keep empty to hide setting
 AGREEMENT_URLS:
@@ -71,10 +71,10 @@ EXPERIMENTAL_FEATURES:
     ENABLED: false
 
 #Platform names
-PLATFORM_NAME: "OpenEdX"
-PLATFORM_FULL_NAME: "OpenEdX"
+PLATFORM_NAME: "Ceibal"
+PLATFORM_FULL_NAME: "Ceibal"
 #App sourceSets dir
-THEME_DIRECTORY: "openedx"
+THEME_DIRECTORY: "ceibal"
 #tokenType enum accepts JWT and BEARER only
 TOKEN_TYPE: "JWT"
 #feature flag for activating What’s New feature
